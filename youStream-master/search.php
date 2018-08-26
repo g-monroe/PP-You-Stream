@@ -7,7 +7,7 @@ if (isset($_GET['q']) && isset($_GET['maxResults'])) {
      * {{ Google Cloud Console }} <{{ https://cloud.google.com/console }}>
      * Please ensure that you have enabled the YouTube Data API for your project.
      */
-    $DEVELOPER_KEY = 'AIzaSyBiPPSB0tkOTrrB7X1X4TH5GVbqGVR8U60';
+    $DEVELOPER_KEY = 'KEY';
 
     $client = new Google_Client();
     $headers = array('Referer' => "http://gmonroe.org");
